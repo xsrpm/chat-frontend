@@ -10,4 +10,4 @@ Frontend para chat
 # Dependencias de Ejecución
 
 * Browser: Firefox/Chrome/Edge
-* Backend de chat: 
+* Backend de chat: https://github.com/xsrpm/chat-backend
