@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+}
+
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#chat{
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: 10% 1fr 10% 5%;
+    grid-template-areas: "header header"
+                         "messages online"
+                         "message send"
+                         "logout logout";
+    background-color: white;
+}
+
+#chat h1{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#chat #messages{
+    grid-area: messages;
+    border-style: inset;
+}
+#chat #online{
+    grid-area: online;
+    border-style: outset;
+}
+#chat #message{
+    grid-area: message;
+}
+#chat #btnSend{
+    grid-area: send;
+}
+#chat #btnLogout{
+    grid-area: logout;
+}
+
+.showSection{
+    z-index: 1;
+}
