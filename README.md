@@ -22,3 +22,21 @@ Frontend para chat
 
 # Fuente
 https://javascript.info/websocket
+
+# Anexo
+
+## Referencia para estructura de proyecto y automatizacion de workflow con parcel
+https://www.youtube.com/watch?v=8rD9amRSOQY
+
+## Contenerizando aplicacion con Docker
+
+### Creación de imagen y contenedor docker para nginx (servidor http)
+https://soka.gitlab.io/blog/post/2019-07-08-docker-imagenes-y-contenedores/
+
+### Creando imagen docker (a partir de archivo Dockerfile)
+
+    docker build -t cemp2703/chat-frontend:1.0.0 .
+
+### Creando y levantando contenedor (a partir de la imagen creada)
+
+    docker run -it -p 8081:80 --rm chat-frontend:1.0.0

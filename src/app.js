@@ -14,9 +14,9 @@ function changeSection(section) {
 }
 
 //desarrollo
-//let url = "ws://localhost:8080/ws";
+let url = "ws://localhost:8080/ws";
 //produccion
-let url = "wss://chat-backend.cemp2703.repl.co/ws";
+//let url = "wss://chat-backend.cemp2703.repl.co/ws";
 /**
  * @type {WebSocket}
  */
