@@ -25,7 +25,7 @@ https://javascript.info/websocket
 
 # Anexo
 
-## Referencia para estructura de proyecto y automatizacion de workflow con parcel
+## Referencia para estructura de proyecto y automatización de workflow con nodejs y parcel
 https://www.youtube.com/watch?v=8rD9amRSOQY
 
 ## Contenerizando aplicacion con Docker
