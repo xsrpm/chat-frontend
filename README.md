@@ -28,6 +28,11 @@ https://javascript.info/websocket
 ## Referencia para estructura de proyecto y automatización de workflow con nodejs y parcel
 https://www.youtube.com/watch?v=8rD9amRSOQY
 
+## Variables de entorno en nodejs
+https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html
+https://robertcooper.me/post/front-end-javascript-environment-variables
+https://parceljs.org/env.html
+
 ## Contenerizando aplicacion con Docker
 
 ### Creación de imagen y contenedor docker para nginx (servidor http)

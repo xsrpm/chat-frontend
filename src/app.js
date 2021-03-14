@@ -13,10 +13,7 @@ function changeSection(section) {
   section.classList.add("showSection");
 }
 
-//desarrollo
-let url = "ws://localhost:8080/ws";
-//produccion
-//let url = "wss://chat-backend.cemp2703.repl.co/ws";
+let url = `${process.env.WEBSOCKET_URL}/ws`;
 /**
  * @type {WebSocket}
  */
