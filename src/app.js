@@ -71,31 +71,31 @@ btnLogin.addEventListener("click", () => {
         break;
       case "send-new-message":
         message.value=""
-        updateNewMessage(data)
+        appendNewMessage(data)
       break;
       case "update-nick-list":
         updateNickList(data)
       break;
       case "update-new-message":
-        updateNewMessage(data)
+        appendNewMessage(data)
       break;
     }
   }
 
-  function updateNewMessage(data){
+  function appendNewMessage(data){
     let messageElem = document.createElement("div");
     messageElem.textContent = `${data.payload.nick}: ${data.payload.message}`;
     document.getElementById("messages").append(messageElem);
   }
 
   function updateNickList(data){
-    let listitem
+    let listItem
     console.log(data.payload.nicks)
     onlineList.innerHTML=""
     for(let n of data.payload.nicks){
-        listitem = document.createElement("p")
-      listitem.innerText=n
-      onlineList.append(listitem)
+      listItem = document.createElement("p")
+      listItem.innerText=n
+      onlineList.append(listItem)
     }
   }
 
